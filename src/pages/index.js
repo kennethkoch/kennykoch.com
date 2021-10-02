@@ -47,14 +47,26 @@ const IndexPage = () => (
           <h2 className="mb-5">Projects</h2>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">engineer</h3>
-              <div className="subheading mb-3">project 1 title</div>
+              <h3 className="mb-0">Project Title</h3>
+              <div className="subheading mb-3">project subtitle/description</div>
               <p>
                 project details
               </p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">2017-infinity</span>
+            </div>
+          </div>
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Project Title</h3>
+              <div className="subheading mb-3">Short project Description</div>
+              <p>
+                I was a member a team of 4 engineers who built 
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">2017-2018</span>
             </div>
           </div>
 
@@ -76,7 +88,13 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">Fullstack Academy of Code</h3>
               <div className="subheading mb-3">Immersive Software Engineering Bootcamp</div>
-              <p>Cohort 1710 was amazing</p>
+              <p>Fullstack Academy is a highly competitve coding bootcamp headquartered in NYC. I spent a little over
+                three months here learning fullstack web development using JavaScript. We used ReactJS extensively,
+                as well Redux, Node.js, Express.js, and database tools including PostgreSQL and SQLite.
+              </p>
+              <p> This was one of the most challenging and exciting programs I've ever been a part of, and I'm forever
+                grateful for the opportunity Fullstack provided me to learn alongside so many bright and motivated people.  
+              </p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">2017 - 2018</span>
@@ -85,8 +103,8 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between ">
             <div className="resume-content">
               <h3 className="mb-0">Central Connecticut State University</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science</div>
+              <div className="subheading mb-3">B.S. Computer Science</div>
+              <p>Minor in Economics</p>
               <p>GPA: 3.64</p>
             </div>
             <div className="resume-date text-md-right">

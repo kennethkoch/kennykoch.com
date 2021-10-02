@@ -26,5 +26,5 @@ module.exports = {
       name: 'Twitter',     
     },
   ],
-  email: 'kennykoch47@gmail.com',
+  email: 'kennyryankoch@gmail.com',
 };
