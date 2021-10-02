@@ -1,4 +1,4 @@
 # my personal website
 
-design derived from Resume theme by startbootsrap
-powered by gatsby
+Design derived from the [Resume](https://startbootstrap.com/theme/resume) theme by startbootsrap  
+Generated from [this Gatsby Starter](https://www.gatsbyjs.com/starters/anubhavsrivastava/gatsby-starter-resume) by [Anubhav Srivastava](https://github.com/anubhavsrivastava)  
