@@ -126,44 +126,74 @@ const IndexPage = () => (
           <div className="subheading mb-3">
             Programming Languages &amp; Tools
           </div>
-          <ul className="list-inline dev-icons">
-            <li className="list-inline-item">
-              <i className="fab fa-node-js"></i>
+          <ul>
+            <li>
+              <i className="fab fa-js-square"> JavaScript</i>
             </li>
-            <li className="list-inline-item">
-              <i className="fab fa-react"></i>
+            <li>
+              <i className="fab fa-node-js"> Node.js</i>
             </li>
-            <li className="list-inline-item">
-              <i className="fab fa-js-square"></i>
+            <li>
+              <i className="fab fa-react"> ReactJS</i>
             </li>
-            <li className="list-inline-item">
-              <i className="fab fa-npm"></i>
+            <li>
+              <i className="fab fa-python"> Python</i>
             </li>
-            <li className="list-inline-item">
-              <i className="fab fa-html5"></i>
+            <li>
+              <i className="fab fa-npm"> npm </i>
             </li>
-            <li className="list-inline-item">
-              <i className="fab fa-css3-alt"></i>
+            <li>
+              <i className="fab fa-aws"> AWS</i>
+            </li>
+            <li>
+              <i className="fab fa-github"> git/github</i>
+            </li>
+            <li>
+              <i className="fab fa-html5"> html5</i>
+            </li>
+            <li>
+              <i className="fab fa-css3-alt"> css3</i>
+            </li>
+            <li>
+              <i className="fab"> Redux</i>
+            </li>
+            <li>
+              <i className="fab"> socket.io</i>
+            </li>
+            <li>
+              <i className="fab"> PostgreSQL</i>
+            </li>
+            <li>
+              <i className="fab"> SQL</i>
+            </li>
+            <li>
+              <i className="fab"> mysql</i>
+            </li>
+            <li>
+              <i className="fab"> C</i>
+            </li>
+            <li>
+              <i className="fab"> C++</i>
             </li>
           </ul>
 
-          <div className="subheading mb-3">Workflow</div>
+          <div className="subheading mb-3">Additional Skills</div>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              building stuff
+              Collaboration
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i> 
+              Communication
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              other skills
+              Agile Development
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              
+              Test-Driven
             </li>
           </ul>
         </div>
