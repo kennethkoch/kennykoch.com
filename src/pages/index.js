@@ -76,6 +76,105 @@ const IndexPage = () => (
 
       <hr className="m-0" />
 
+
+      <hr className="m-0" />
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="skills"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Skills</h2>
+
+          <div className="subheading mb-3">
+            Programming Languages &amp; Tools
+          </div>
+          <ul>
+            <li>
+              <i className="fab fa-js-square"> JavaScript</i>
+            </li>
+            <li>
+              <i className="fab fa-node-js"> Node.js</i>
+            </li>
+            <li>
+              <i className="fab fa-react"> ReactJS</i>
+            </li>
+            <li>
+              <i className="fab fa-python"> Python</i>
+            </li>
+            <li>
+              <i className="fab fa-npm"> NPM </i>
+            </li>
+            <li>
+              <i className="fab fa-aws"> AWS</i>
+            </li>
+            <li>
+              <i className="fab fa-github"> Git/GitHub</i>
+            </li>
+            <li>
+              <i className="fab fa-html5"> HTML5</i>
+            </li>
+            <li>
+              <i className="fab fa-css3-alt"> CSS3</i>
+            </li>
+            <li>
+              <i className="fab fa-linux"> Linux</i>
+            </li>
+            <li>
+              <i className="fab"> Redux</i>
+            </li>
+            <li>
+              <i className="fab"> Express.js</i>
+            </li>
+            <li>
+              <i className="fab"> socket.io</i>
+            </li>
+            <li>
+              <i className="fab"> PostgreSQL</i>
+            </li>
+            <li>
+              <i className="fab"> SQL</i>
+            </li>
+            <li>
+              <i className="fab"> mysql</i>
+            </li>
+            <li>
+              <i className="fab"> C</i>
+            </li>
+            <li>
+              <i className="fab"> C++</i>
+            </li>
+          </ul>
+
+          <div className="subheading mb-3">Additional Skills</div>
+          <ul className="fa-ul mb-0">
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Agile Development
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Test-Driven Development
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              App Deployment
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Collaboration
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i> 
+              Communication
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i> 
+              Figuring Things Out
+            </li>
+          </ul>
+        </div>
+      </section>
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="education"
@@ -113,110 +212,6 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-
-      <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="skills"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Skills</h2>
-
-          <div className="subheading mb-3">
-            Programming Languages &amp; Tools
-          </div>
-          <ul>
-            <li>
-              <i className="fab fa-js-square"> JavaScript</i>
-            </li>
-            <li>
-              <i className="fab fa-node-js"> Node.js</i>
-            </li>
-            <li>
-              <i className="fab fa-react"> ReactJS</i>
-            </li>
-            <li>
-              <i className="fab fa-python"> Python</i>
-            </li>
-            <li>
-              <i className="fab fa-npm"> npm </i>
-            </li>
-            <li>
-              <i className="fab fa-aws"> AWS</i>
-            </li>
-            <li>
-              <i className="fab fa-github"> git/github</i>
-            </li>
-            <li>
-              <i className="fab fa-html5"> html5</i>
-            </li>
-            <li>
-              <i className="fab fa-css3-alt"> css3</i>
-            </li>
-            <li>
-              <i className="fab"> Redux</i>
-            </li>
-            <li>
-              <i className="fab"> socket.io</i>
-            </li>
-            <li>
-              <i className="fab"> PostgreSQL</i>
-            </li>
-            <li>
-              <i className="fab"> SQL</i>
-            </li>
-            <li>
-              <i className="fab"> mysql</i>
-            </li>
-            <li>
-              <i className="fab"> C</i>
-            </li>
-            <li>
-              <i className="fab"> C++</i>
-            </li>
-          </ul>
-
-          <div className="subheading mb-3">Additional Skills</div>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Collaboration
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i> 
-              Communication
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Agile Development
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Test-Driven
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="interests"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Interests</h2>
-          <p>
-            solving problems
-          </p>
-          <p className="mb-0">
-            
-          </p>
-        </div>
-      </section>
-
-      <hr className="m-0" />
     </div>
   </Layout>
 );
