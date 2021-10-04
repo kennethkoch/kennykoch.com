@@ -89,62 +89,41 @@ const IndexPage = () => (
           <div className="subheading mb-3">
             Programming Languages &amp; Tools
           </div>
-          <ul>
-            <li>
-              <i className="fab fa-js-square"> JavaScript</i>
-            </li>
-            <li>
-              <i className="fab fa-node-js"> Node.js</i>
-            </li>
-            <li>
-              <i className="fab fa-react"> ReactJS</i>
-            </li>
-            <li>
-              <i className="fab fa-python"> Python</i>
-            </li>
-            <li>
-              <i className="fab fa-npm"> NPM </i>
-            </li>
-            <li>
-              <i className="fab fa-aws"> AWS</i>
-            </li>
-            <li>
-              <i className="fab fa-github"> Git/GitHub</i>
-            </li>
-            <li>
-              <i className="fab fa-html5"> HTML5</i>
-            </li>
-            <li>
-              <i className="fab fa-css3-alt"> CSS3</i>
-            </li>
-            <li>
-              <i className="fab fa-linux"> Linux</i>
-            </li>
-            <li>
-              <i className="fab"> Redux</i>
-            </li>
-            <li>
-              <i className="fab"> Express.js</i>
-            </li>
-            <li>
-              <i className="fab"> socket.io</i>
-            </li>
-            <li>
-              <i className="fab"> PostgreSQL</i>
-            </li>
-            <li>
-              <i className="fab"> SQL</i>
-            </li>
-            <li>
-              <i className="fab"> mysql</i>
-            </li>
-            <li>
-              <i className="fab"> C</i>
-            </li>
-            <li>
-              <i className="fab"> C++</i>
-            </li>
-          </ul>
+          <table className="table">
+            <tbody>
+              <tr>
+                <td className="fab fa-js-square"> JavaScript</td>
+                <td className="fab fa-node-js"> Node.js</td>
+                <td className="fab fa-react"> ReactJS</td>
+              </tr>
+
+              <tr>
+                <td className="fab fa-python"> Python</td>
+                <td className="fab fa-npm"> NPM </td>
+                <td className="fab fa-aws"> AWS</td>
+              </tr>
+              <tr>
+                <td className="fab fa-github"> Git/GitHub</td>
+                <td className="fab fa-html5"> HTML5</td>
+                <td className="fab fa-css3-alt"> CSS3</td>
+              </tr>
+              <tr>
+                <td className="fab"> Redux</td>
+                <td className="fab"> Express.js</td>
+                <td className="fab fa-linux"> Linux</td>
+                <td className="fab"> C</td>
+              </tr>
+              <tr>
+                <td className="fab"><i className="fas fa-database"></i> SQL</td>
+                <td className="fab"> PostgreSQL</td>
+                <td className="fab"> Sequelize</td>
+              </tr>
+              <tr>
+
+              </tr>
+            </tbody>
+          </table>
+
 
           <div className="subheading mb-3">Additional Skills</div>
           <ul className="fa-ul mb-0">
