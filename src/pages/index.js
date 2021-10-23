@@ -44,32 +44,39 @@ const IndexPage = () => (
         id="projects"
       >
         <div className="w-100">
-          <h2 className="mb-5">Projects</h2>
+          <h2 className="mb-5">Experience</h2>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Project Title</h3>
-              <div className="subheading mb-3">project subtitle/description</div>
+              <h3 className="mb-0">NB Cares</h3>
+              <div className="subheading mb-3">A responsive web app to allow the City of New Britain and third-party
+              organizations to connect with residents and make them aware of available resources and events</div>
               <p>
-                project details
+                In partnership with Central Connecticut State University and the New Britain Housing Authority, I was 
+                part of a team which built the New Britain CARES web app. We built a responsive frontend for residents
+                to view relevant community events and recieve notifications about services available to them. We also 
+                implemented an interactive event submission form for community organizations and non-profits to submit 
+                events, as well as admin controls for the NBHA to update/edit the interactive calendar of events.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">2017-infinity</span>
+              <span className="text-primary">Sep 2021 - Dec 2021</span>
             </div>
           </div>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Project Title</h3>
-              <div className="subheading mb-3">Short project Description</div>
+              <h3 className="mb-0">FortySix</h3>
+              <div className="subheading mb-3">A distributed computing platform that offloads 
+              computation power to user's browsers </div>
               <p>
-                I was a member a team of 4 engineers who built 
+                Our capstone project at Fullstack, FortySix allows users to customize and run genetic algorithms and
+                distribute the computationl load across multiple browser clilents. Anyone can contribute CPU resources 
+                to an ongoing computation by opening a url in their browser. 
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">2017-2018</span>
+              <span className="text-primary">Jan 2018 - Feb 2018</span>
             </div>
           </div>
-
 
         </div>
       </section>
@@ -117,6 +124,7 @@ const IndexPage = () => (
                 <td className="fab"><i className="fas fa-database"></i> SQL</td>
                 <td className="fab"> PostgreSQL</td>
                 <td className="fab"> Sequelize</td>
+                <td className="fab"> GraphQL</td>
               </tr>
               <tr>
 
