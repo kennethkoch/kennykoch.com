@@ -22,7 +22,9 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            
+            I'm a software engineer who likes solving<br/>
+            problems and building technology that<br/>
+            moves the world forward.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {

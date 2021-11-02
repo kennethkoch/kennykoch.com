@@ -20,10 +20,12 @@ module.exports = {
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/kenny-koch/'
     },
     {
       icon: 'fa-twitter',
-      name: 'Twitter',     
+      name: 'Twitter',   
+      url: 'https://twitter.com/Kennyk2077'  
     },
   ],
   email: 'kennyryankoch@gmail.com',
