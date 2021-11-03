@@ -57,7 +57,7 @@ const IndexPage = () => (
                 part of a team which built the New Britain CARES web app. We built a responsive frontend for residents
                 to view relevant community events and recieve notifications about services available to them. We also 
                 implemented an interactive event submission form for community organizations and non-profits to submit 
-                events, as well as admin controls for the NBHA to update/edit the interactive calendar of events.
+                events, as well as admin controls for authorized staff to update/edit the interactive calendar of events.
               </p>
             </div>
             <div className="resume-date text-md-right">
