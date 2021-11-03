@@ -46,7 +46,7 @@ const IndexPage = () => (
         id="projects"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Projects</h2>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">NB Cares</h3>
