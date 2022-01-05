@@ -23,8 +23,7 @@ const IndexPage = () => (
           </div>
           <p className="lead mb-5">
             I'm a software engineer who likes solving<br/>
-            problems and building technology that<br/>
-            moves the world forward.
+            problems and building useful technology.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -50,14 +49,14 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">NB Cares</h3>
-              <div className="subheading mb-3">A responsive web app to allow the City of New Britain and third-party
-              organizations to connect with residents and make them aware of available resources and events</div>
+              <div className="subheading mb-3">A responsive web app enabling the City of New Britain and third-party
+              organizations to inform residents about available resources</div>
               <p>
                 In partnership with Central Connecticut State University and the New Britain Housing Authority, I was 
                 part of a team which built the New Britain CARES web app. We built a responsive frontend for residents
-                to view relevant community events and recieve notifications about services available to them. We also 
+                to view relevant community events and filter the events they see based on category/type of event. We also 
                 implemented an interactive event submission form for community organizations and non-profits to submit 
-                events, as well as admin controls for authorized staff to update/edit the interactive calendar of events.
+                events, as well as admin controls for authorized staff to update/edit the interactive events calendar.
               </p>
             </div>
             <div className="resume-date text-md-right">
@@ -67,8 +66,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">FortySix</h3>
-              <div className="subheading mb-3">A distributed computing platform that offloads 
-              computation power to user's browsers </div>
+              <div className="subheading mb-3">A browser-based distributed computing platform</div>
               <p>
                 Our capstone project at Fullstack, FortySix allows users to customize and run genetic algorithms and
                 distribute the computationl load across multiple browser clilents. Anyone can contribute CPU resources 
@@ -181,7 +179,7 @@ const IndexPage = () => (
                 as well Redux, Node.js, Express.js, and database tools including PostgreSQL and SQLite.
               </p>
               <p> This was one of the most challenging and exciting programs I've ever been a part of, and I'm forever
-                grateful for the opportunity Fullstack provided me to learn alongside so many bright and motivated people.  
+                grateful for the opportunity Fullstack provided me to learn alongside so many smart and motivated people.  
               </p>
             </div>
             <div className="resume-date text-md-right">
@@ -191,12 +189,18 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between ">
             <div className="resume-content">
               <h3 className="mb-0">Central Connecticut State University</h3>
-              <div className="subheading mb-3">B.S. Computer Science</div>
-              <p>Minor in Economics</p>
-              <p>GPA: 3.64</p>
+              <div className="subheading mb-0">B.S. Computer Science</div>
+              <div className="text-primary mb-3">Minor in Economics</div>
+              <p>At CCSU I studied computer science and economics. During my time there I
+                had the chance to complete several semester-long software projects in 
+                collaboration with other students, including a 2D game built using the Godot game engine,
+                a terminal-based implementation of the classic game snake written in C, and a web app for the city of New Britain.
+              </p>
+              
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Graduating Dec 2021</span>
+              <span className="text-primary">Graduated Dec 2021<br/>
+              GPA 3.73</span>
             </div>
           </div>
         </div>
