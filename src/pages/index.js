@@ -52,7 +52,7 @@ const IndexPage = () => (
               <div className="subheading">Data visualization project examining
                 trends in cyclist and pedestrian safety in NYC</div>
               <div className='text-primary mb-3'>Demo at: <a
-                href="bike-safe-dashboard.herokuapp.com">bike-safe-dashboard.herokuapp.com
+                href="https://bike-safe-dashboard.herokuapp.com/">bike-safe-dashboard.herokuapp.com
               </a></div>
               <p>
                 The back-end of this project involved using Python to extract and classify relevant
